@@ -1,6 +1,11 @@
 #Clase alumno con atributos de nombre y nota del alumno
 class Alumno:
     def __init__(self,nombre,nota):
+        """Inicializador de la clase Alumno
+        Args:
+            self._nombre (str): Nombre del alumno
+            self._nota (float): Nota del alumno
+        """
         self._nombre=nombre
         self._nota=nota
     
