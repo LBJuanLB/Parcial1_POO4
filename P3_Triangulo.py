@@ -4,6 +4,12 @@ si es equilátero, isóceles o escaleno.
 '''
 class Triangulo:
     def __init__(self,lado1,lado2,lado3):
+        """Inicializador de la clase Triangulo
+        Args:
+            self.lado1 (float): Lado 1 del triangulo
+            self.lado2 (float): Lado 2 del triangulo
+            self.lado3 (float): Lado 3 del triangulo
+        """
         self.lado1=lado1
         self.lado2=lado2
         self.lado3=lado3
