@@ -1,6 +1,11 @@
 #Clase calculadora que realiza suma, resta, multiplicacion y division a dos numeros
 class Calculadora:
     def __init__(self):
+        """Inicializador de la clase Calculadora
+        Args:
+            self.num1 (float): El primer numero a operar
+            self.num2 (float): El segundo numero a operar
+        """
         self.num1=float(input("Ingrese el primer numero: "))
         self.num2=float(input("Ingrese el segundo numero: "))
     
