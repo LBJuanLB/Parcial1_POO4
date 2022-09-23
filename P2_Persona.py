@@ -1,6 +1,11 @@
 #Clase persona con atributos de nombre y edad
 class Persona:
     def __init__(self,nombre,edad):
+    """Inicializador de la clase Persona
+        Args:
+            self._nombre (str): Nombre de la persona
+            self._edad (int): Edad de la persona
+        """
         self._nombre=nombre
         self._edad=edad
 
