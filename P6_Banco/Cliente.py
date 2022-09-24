@@ -1,6 +1,12 @@
 #Clase cliente con los atributos id, nombre y cantidad
 class Cliente:
     def __init__(self,id,nombre,cantidad):
+        """Inicializador de la clase Cliente
+        Args:
+            self.id (str): ID del cliente
+            self.nombre (str): Nombre del cliente
+            self.cantidad (int): Cantidad de dinero que tiene el cliente
+        """
         self.id=id
         self.nombre=nombre
         self.cantidad=float(cantidad)
