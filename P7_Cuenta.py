@@ -1,6 +1,11 @@
 #Clase cuenta que recibe titular y cantidad
 class Cuenta:
     def __init__(self,titular,cantidad):
+        """Inicializador de la clase Cuenta
+        Args:
+            self.titular (str): Nombre del titular de la cuenta
+            self.cantidad (float): Cantidad de dinero del titular
+        """
         self.titular=titular
         self.cantidad=cantidad
     
