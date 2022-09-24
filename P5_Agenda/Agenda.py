@@ -3,6 +3,10 @@ from Contacto import Contacto
 
 class Agenda:
     def __init__(self):
+        """Inicializador de la clase Agenda
+        Args:
+            self.Agenda (list): Lista llamada agenda donde se guardaran los contactos
+        """
         self.Agenda=[]
     
     #Metodo para agregar un contacto
