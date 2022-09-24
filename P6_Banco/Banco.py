@@ -3,6 +3,10 @@ from Cliente import Cliente
 
 class Banco:
     def __init__(self):
+        """Inicializador de la clase Banco
+        Args:
+            self.Clientes (list): Lista para guardar los clientes del banco
+        """
         self.Clientes=[]
     
     #Metodo para ingresar un nuevo cliente
